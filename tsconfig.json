@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "declaration": true,
+    "strictPropertyInitialization": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "dist",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "lib": ["es2017", "DOM"]
+  },
+  "exclude": ["dist", "node_modules", "src/**/*.spec.ts"]
+}
