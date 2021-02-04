@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Marker = void 0;
 var Marker;
 (function (Marker) {
     Marker["Church"] = "Church";
