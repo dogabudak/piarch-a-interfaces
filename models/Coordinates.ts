@@ -1,4 +1,4 @@
-import {AttractionType} from "./Attraction";
+import {AttractionType} from "./Enums";
 export interface Coordinates {
     "city" : string,
     "locations" : [
