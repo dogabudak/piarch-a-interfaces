@@ -1,8 +1,6 @@
 import {Coordinates} from "./Coordinates";
 import {TourType, Availability} from "./Enums";
 
-
-
 export interface Locations {
     countryName: string, // example Turkey
     availability: Availability,
