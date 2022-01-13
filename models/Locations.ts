@@ -6,7 +6,7 @@ export interface Locations {
     availability: Availability,
     cities:{
      name: string,
-     coorditanes:Coordinates[],
+     coordinates:Coordinates[],
      availability: Availability,
      Tours:{
       name: string,
