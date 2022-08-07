@@ -11,17 +11,19 @@ export interface User {
     birthdate?: Date;
     mail?: string;
     phone?: string;
-    locations?: [{
-        coords: {
-            altitude: number;
-            altitudeAccuracy: number;
-            latitude: number;
-            accuracy: number;
-            longitude: number;
-            heading: number;
-            speed: number;
-        };
-        timestamp: Date;
-    }];
+    locations?: [
+        {
+            coords: {
+                altitude: number;
+                altitudeAccuracy: number;
+                latitude: number;
+                accuracy: number;
+                longitude: number;
+                heading: number;
+                speed: number;
+            };
+            timestamp: Date;
+        }
+    ];
     "lastLogin": Date;
 }

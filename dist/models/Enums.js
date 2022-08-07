@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.TourType = exports.AttractionType = exports.Availability = void 0;
 // Use this where its needed 
 var Availability;
 (function (Availability) {
