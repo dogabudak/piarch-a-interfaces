@@ -1,3 +1,4 @@
+import { LanguageCodes } from "@narando/languages";
 // TODO this is the user object
 export enum Gender {
     Male= "Male",
@@ -25,5 +26,7 @@ export interface User {
     mail?: string,
     phone?: string,
     locations?: [UserCoordinates],
-    "lastLogin" : Date,
+    lastLogin: Date,
+    // Languages that user can speak
+    languagePreferences: [string],
 }
