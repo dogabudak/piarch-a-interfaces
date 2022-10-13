@@ -1,4 +1,3 @@
-import { LanguageCodes } from "@narando/languages";
 // TODO this is the user object
 export enum Gender {
     Male= "Male",

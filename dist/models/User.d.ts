@@ -24,5 +24,6 @@ export interface User {
     mail?: string;
     phone?: string;
     locations?: [UserCoordinates];
-    "lastLogin": Date;
+    lastLogin: Date;
+    languagePreferences: [string];
 }
