@@ -7,6 +7,9 @@ export enum AttractionType {
     Church,
     Mosque,
     Museum,
+    Shop,
+    Cistern,
+    Column,
 }
 export enum TourType {
     Bike,
