@@ -8,7 +8,10 @@ export declare enum AttractionType {
     Museum = 2,
     Shop = 3,
     Cistern = 4,
-    Column = 5
+    Column = 5,
+    House = 6,
+    Square = 7,
+    Park = 8
 }
 export declare enum TourType {
     Bike = 0,

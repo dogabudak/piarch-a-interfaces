@@ -15,6 +15,9 @@ var AttractionType;
     AttractionType[AttractionType["Shop"] = 3] = "Shop";
     AttractionType[AttractionType["Cistern"] = 4] = "Cistern";
     AttractionType[AttractionType["Column"] = 5] = "Column";
+    AttractionType[AttractionType["House"] = 6] = "House";
+    AttractionType[AttractionType["Square"] = 7] = "Square";
+    AttractionType[AttractionType["Park"] = 8] = "Park";
 })(AttractionType = exports.AttractionType || (exports.AttractionType = {}));
 var TourType;
 (function (TourType) {

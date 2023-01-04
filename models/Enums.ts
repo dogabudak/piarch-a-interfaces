@@ -10,6 +10,9 @@ export enum AttractionType {
     Shop,
     Cistern,
     Column,
+    House,
+    Square,
+    Park
 }
 export enum TourType {
     Bike,
