@@ -5,7 +5,10 @@ export declare enum Availability {
 export declare enum AttractionType {
     Church = 0,
     Mosque = 1,
-    Museum = 2
+    Museum = 2,
+    Shop = 3,
+    Cistern = 4,
+    Column = 5
 }
 export declare enum TourType {
     Bike = 0,
