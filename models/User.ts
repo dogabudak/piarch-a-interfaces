@@ -26,6 +26,6 @@ export interface User {
     phone?: string,
     locations?: [UserCoordinates],
     lastLogin: Date,
-    // Languages that user can speak
     languagePreferences: [string],
+    chats?: [string],
 }

@@ -1,7 +1,8 @@
 export interface Messages {
-    sender: string
-    recipient: string
+    chatId: string
     messages: {
+        sender: string
+        recipient: string
         message:string,
         timestamp:Date
     }[]
