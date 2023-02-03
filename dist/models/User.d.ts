@@ -26,4 +26,5 @@ export interface User {
     locations?: [UserCoordinates];
     lastLogin: Date;
     languagePreferences: [string];
+    chats?: [string];
 }
