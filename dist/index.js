@@ -17,7 +17,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./models/User"), exports);
 __exportStar(require("./models/Coordinates"), exports);
 __exportStar(require("./models/Enums"), exports);
-__exportStar(require("./models/Messages"), exports);
+__exportStar(require("./models/Chats"), exports);
 __exportStar(require("./models/Locations"), exports);
 // TODO place a husky hook to build
 //# sourceMappingURL=index.js.map
