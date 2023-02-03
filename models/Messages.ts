@@ -1,6 +1,8 @@
 export interface Messages {
     sender: string
     recipient: string
-    messages: string[]
-    timestamp: Date
+    messages: {
+        message:string,
+        timestamp:Date
+    }[]
 }
