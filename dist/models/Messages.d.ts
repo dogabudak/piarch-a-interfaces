@@ -1,6 +1,6 @@
 export interface Messages {
     sender: string;
     recipient: string;
-    message: string;
+    messages: string[];
     timestamp: Date;
 }
