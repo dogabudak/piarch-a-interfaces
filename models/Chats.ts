@@ -1,4 +1,4 @@
-export interface Messages {
+export interface Chats {
     chatId: string
     messages: {
         sender: string
