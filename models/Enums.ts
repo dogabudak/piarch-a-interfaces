@@ -5,11 +5,13 @@ export enum Availability {
 }
 export enum AttractionType {
     Church,
-    Mosque,
+    Column,
     Museum,
     Shop,
+    Palace,
+    Information,
+    Mosque,
     Cistern,
-    Column,
     House,
     Square,
     Park
