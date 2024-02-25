@@ -1,4 +1,4 @@
-// Use this where its needed 
+// Use this where its needed
 export enum Availability {
     featured,
     available
@@ -14,7 +14,8 @@ export enum AttractionType {
     Cistern,
     House,
     Square,
-    Park
+    Park,
+    Castle,
 }
 export enum TourType {
     Bike,

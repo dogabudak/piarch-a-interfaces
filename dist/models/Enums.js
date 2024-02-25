@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TourType = exports.AttractionType = exports.Availability = void 0;
-// Use this where its needed 
+// Use this where its needed
 var Availability;
 (function (Availability) {
     Availability[Availability["featured"] = 0] = "featured";
@@ -10,14 +10,17 @@ var Availability;
 var AttractionType;
 (function (AttractionType) {
     AttractionType[AttractionType["Church"] = 0] = "Church";
-    AttractionType[AttractionType["Mosque"] = 1] = "Mosque";
+    AttractionType[AttractionType["Column"] = 1] = "Column";
     AttractionType[AttractionType["Museum"] = 2] = "Museum";
     AttractionType[AttractionType["Shop"] = 3] = "Shop";
-    AttractionType[AttractionType["Cistern"] = 4] = "Cistern";
-    AttractionType[AttractionType["Column"] = 5] = "Column";
-    AttractionType[AttractionType["House"] = 6] = "House";
-    AttractionType[AttractionType["Square"] = 7] = "Square";
-    AttractionType[AttractionType["Park"] = 8] = "Park";
+    AttractionType[AttractionType["Palace"] = 4] = "Palace";
+    AttractionType[AttractionType["Information"] = 5] = "Information";
+    AttractionType[AttractionType["Mosque"] = 6] = "Mosque";
+    AttractionType[AttractionType["Cistern"] = 7] = "Cistern";
+    AttractionType[AttractionType["House"] = 8] = "House";
+    AttractionType[AttractionType["Square"] = 9] = "Square";
+    AttractionType[AttractionType["Park"] = 10] = "Park";
+    AttractionType[AttractionType["Castle"] = 11] = "Castle";
 })(AttractionType = exports.AttractionType || (exports.AttractionType = {}));
 var TourType;
 (function (TourType) {

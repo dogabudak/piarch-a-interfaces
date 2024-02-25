@@ -4,14 +4,17 @@ export declare enum Availability {
 }
 export declare enum AttractionType {
     Church = 0,
-    Mosque = 1,
+    Column = 1,
     Museum = 2,
     Shop = 3,
-    Cistern = 4,
-    Column = 5,
-    House = 6,
-    Square = 7,
-    Park = 8
+    Palace = 4,
+    Information = 5,
+    Mosque = 6,
+    Cistern = 7,
+    House = 8,
+    Square = 9,
+    Park = 10,
+    Castle = 11
 }
 export declare enum TourType {
     Bike = 0,
