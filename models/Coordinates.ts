@@ -4,5 +4,6 @@ export interface Coordinates {
         "x" : number,
         "y" : number,
         "description" : string,
+        "advertisement" : boolean,
         "type" : AttractionType
     }[]
