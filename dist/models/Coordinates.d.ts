@@ -3,6 +3,10 @@ export interface Coordinates {
     "name": string;
     "x": number;
     "y": number;
-    "description": string;
+    "description": {
+        "en": string;
+        "tr": string;
+    };
+    "advertisement": boolean;
     "type": AttractionType;
 }
