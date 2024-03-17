@@ -16,6 +16,9 @@ export interface UserCoordinates {
     },
     timestamp : Date
 }
+export interface UserSettings {
+    language : string
+}
 export interface User {
     username:string,
     password:string,
@@ -28,4 +31,5 @@ export interface User {
     lastLogin: Date,
     languagePreferences: [string],
     chats?: [string],
+    settings: UserSettings
 }
